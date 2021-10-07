@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Banco do Brasil</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="./js/app.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</head>
+<body>
+  <div id="app">
+    <header>
+      <section class="aviso">
+        <div class="opcoes">
+          <div role="button" onClick="menu1()">
+          <p><strong class="s1">Banco</strong><strong class="s2"> do </strong><strong class="s3">Brasil. </strong>Clique aqui e veja nossas soluções para <strong class="t1">Empresas, Agronegócios e outras atuações</strong></p>
+         
+            <svg id="icon" class="icon" viewBox="0 0 320 512" width="100" title="angle-down">
+              <path d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z" />
+            </svg>
+          </div>
+          <span></span>
+        </div>
+        <div class="menu-opcoes">
+          <div>
+            <ul>
+              <li class="caso">
+                <span class="t1 t-up">Pessoa Física</span>
+                <ul class="lista-caso">
+                  <li><a href="#">Você</a></li>
+                  <li><a href="#">Exclusivo</a></li>
+                  <li><a href="#">Estilo</a></li>
+                  <li><a href="#">Private</a></li>
+                </ul>
+              </li>
+            </ul>
+  
+            <ul>
+              <li class="caso">
+                <span class="t1 t-up">Pessoa Jurídica</span>
+                <ul class="lista-caso">
+                  <li><a href="#">Empresas</a></li>
+                  <li><a href="#">Corporate</a></li>
+                  <li><a href="#">Banking</a></li>
+                  <li><a href="#">Empreendedor</a></li>
+                </ul>
+              </li>
+            </ul>
+  
+            <ul>
+              <li class="caso">
+                <span class="t1 t-up">Setor Público</span>
+                <ul class="lista-caso">
+                  <li><a href="#">Federal</a></li>
+                  <li><a href="#">Estadual</a></li>
+                  <li><a href="#">Municipal</a></li>
+                  <li><a href="#">Legislativo</a></li>
+                  <li><a href="#">Judiciário</a></li>
+                </ul>
+              </li>
+            </ul>
+  
+            <ul>
+              <li class="caso">
+                <span class="t1 t-up">Outras atuações</span>
+                <ul class="lista-caso lista-caso-excecao">
+                  <li><a href="#">Agronegócio</a></li>
+                  <li><a href="#">Cooperativas</a></li>
+                  <li><a href="#">Universitário</a></li>
+                  <li><a href="#">Profissional Liberal e Empresário</a></li>
+                  <li><a href="#">Não correntista</a></li>
+                  <li><a href="#">Startups</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          
+        </div>
+      </section>
+      <section class="menu-flutuante">
+        <div class="menu-flutuante-nav">
+          <svg class="icon-flutuante" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 225.01 225"><defs><style>.cls-1{fill:#fefefa;}.cls-2{fill:#1daa49;}.cls-3{fill:#fff;}</style></defs><title>Camada 1</title><g id="Camada_2" data-name="Camada 2"><g id="Camada_1-2" data-name="Camada 1"><path class="cls-1" d="M.09,112C.09,75.42.14,38.83,0,2.25A2.25,2.25,0,0,1,2.25,0Q112.5.17,222.76,0A2.25,2.25,0,0,1,225,2.25q-.16,110.25,0,220.51a2.24,2.24,0,0,1-2.25,2.24q-110.26-.15-220.51,0A2.23,2.23,0,0,1,0,222.75C.14,185.84.09,148.92.09,112Zm112.43,99.07c31.29,0,62.59-.06,93.89.08,3.65,0,4.76-.82,4.75-4.64q-.18-94.14,0-188.28c0-3.61-1.12-4.37-4.52-4.37q-94.14.15-188.27,0c-3.43,0-4.51.82-4.5,4.39q.17,94.14,0,188.28c0,3.86,1.16,4.64,4.78,4.62C49.92,211,81.22,211.07,112.52,211.07Z"/><path class="cls-2" d="M112.52,211.07c-31.3,0-62.6-.06-93.89.08-3.62,0-4.79-.76-4.78-4.62q.18-94.14,0-188.28c0-3.57,1.07-4.4,4.5-4.39q94.13.15,188.27,0c3.4,0,4.53.76,4.52,4.37q-.17,94.14,0,188.28c0,3.82-1.1,4.66-4.75,4.64C175.11,211,143.81,211.07,112.52,211.07ZM33.18,192.25l29-18.78a2.26,2.26,0,0,0,0-3.75c-4-2.76-7.73-5.27-11.41-7.8-1.23-.84-2.31-1.85-3.93-.58-4.54,3.54-9.89,5.95-14,10a2.29,2.29,0,0,0-.66,1.58c0,6.14-.11,12.28-.12,18.42C32,191.9,31.75,193.29,33.18,192.25Zm159-137.62a2.22,2.22,0,0,0,.68-1.57c.12-5.42.29-10.84.26-16.25v-.19a2.24,2.24,0,0,0-3.46-1.89L163.31,51.86a2.26,2.26,0,0,0-.05,3.75l12.08,8.32c1,.66,1.81,1.33,3.08.36C182.87,60.87,188.08,58.52,192.19,54.63ZM140.83,88.21a2.26,2.26,0,0,0,0-3.74c-3.29-2.19-6.43-4.23-9.39-6.52-2.76-2.12-4.75-2.16-7.77-.1C96.16,96.55,68.53,115,40.94,133.59c-1.94,1.31-3.88,2.64-5.92,4a2.26,2.26,0,0,0,0,3.73c24.86,16.68,49.23,33,73.55,49.38,2.66,1.79,4.78,1.26,7.24-.4,11.71-7.91,23.51-15.69,35.27-23.53,12.75-8.5,25.49-17,38.71-25.84a2.26,2.26,0,0,0,0-3.75c-9.93-6.58-19.52-12.92-29.05-19.34a2.38,2.38,0,0,0-3.09,0c-11.73,7.89-23.46,15.76-35.57,23.89a2.25,2.25,0,0,0,0,3.74l11.61,7.78a2.25,2.25,0,0,1,0,3.72c-5.94,4-11.55,7.81-17.11,11.68-1.55,1.08-2.7,1.3-4.4.14-14-9.56-28.09-19-42.5-28.76a2.25,2.25,0,0,1,0-3.73Zm-57,48.15a2.25,2.25,0,0,0,0,3.74c3.52,2.32,6.83,4.44,9.94,6.85,2.55,2,4.32,1.69,6.9,0q43-29,86.1-57.86c5.08-3.41,5.12-4,0-7.44-23.73-16-47.5-31.85-71.16-47.91-2.51-1.7-4.08-1.55-6.48.08Q76.38,56,43.36,77.92l-8.45,5.66a2.25,2.25,0,0,0,0,3.75c9.55,6.33,18.79,12.39,27.9,18.63,2.24,1.54,3.71,1.09,5.69-.26,10.58-7.21,21.25-14.28,31.85-21.45,4.18-2.82,4.16-4,.1-6.72-3.06-2.07-6.14-4.12-9.42-6.31a2.25,2.25,0,0,1,0-3.73c6.09-4.12,11.85-8,17.48-12,2.09-1.49,3.3-.27,4.76.71q13.44,9.06,26.87,18.14C145,77.66,149.9,81,155,84.47a2.25,2.25,0,0,1,0,3.72Z"/><path class="cls-3" d="M140.83,88.21,69.69,136.37a2.25,2.25,0,0,0,0,3.73c14.41,9.72,28.48,19.2,42.5,28.76,1.7,1.16,2.85.94,4.4-.14,5.56-3.87,11.17-7.65,17.11-11.68a2.25,2.25,0,0,0,0-3.72l-11.61-7.78a2.25,2.25,0,0,1,0-3.74c12.11-8.13,23.84-16,35.57-23.89a2.38,2.38,0,0,1,3.09,0c9.53,6.42,19.12,12.76,29.05,19.34a2.26,2.26,0,0,1,0,3.75c-13.22,8.83-26,17.34-38.71,25.84-11.76,7.84-23.56,15.62-35.27,23.53-2.46,1.66-4.58,2.19-7.24.4C84.27,174.36,59.9,158,35,141.36a2.26,2.26,0,0,1,0-3.73c2-1.4,4-2.73,5.92-4,27.59-18.55,55.22-37,82.71-55.74,3-2.06,5-2,7.77.1,3,2.29,6.1,4.33,9.39,6.52A2.26,2.26,0,0,1,140.83,88.21Z"/><path class="cls-3" d="M83.87,136.36,155,88.19a2.25,2.25,0,0,0,0-3.72c-5.1-3.48-10-6.81-14.86-10.11q-13.42-9.09-26.87-18.14c-1.46-1-2.67-2.2-4.76-.71-5.63,4-11.39,7.86-17.48,12a2.25,2.25,0,0,0,0,3.73c3.28,2.19,6.36,4.24,9.42,6.31,4.06,2.74,4.08,3.9-.1,6.72-10.6,7.17-21.27,14.24-31.85,21.45-2,1.35-3.45,1.8-5.69.26-9.11-6.24-18.35-12.3-27.9-18.63a2.25,2.25,0,0,1,0-3.75l8.45-5.66q33-22.05,65.87-44.15c2.4-1.63,4-1.78,6.48-.08,23.66,16.06,47.43,32,71.16,47.91,5.09,3.42,5,4,0,7.44q-43.07,28.9-86.1,57.86c-2.58,1.74-4.35,2-6.9,0-3.11-2.41-6.42-4.53-9.94-6.85A2.25,2.25,0,0,1,83.87,136.36Z"/><path class="cls-3" d="M192.5,52.73a2.3,2.3,0,0,1-.7,2.22c-4.06,3.7-9.1,6-13.43,9.34-1.27,1-2.11.3-3.07-.36l-12.09-8.32a2.25,2.25,0,0,1,0-3.74l25.31-16.46a2.26,2.26,0,0,1,3.48,1.93C192,42.48,191.4,47.64,192.5,52.73Z"/><path class="cls-3" d="M32.58,173.25a2.27,2.27,0,0,1,.64-2.32c4.09-3.81,9.23-6.18,13.61-9.59,1.62-1.27,2.7-.26,3.93.58,3.68,2.53,7.37,5,11.41,7.8a2.26,2.26,0,0,1,0,3.75L36.59,190a2.25,2.25,0,0,1-3.46-1.82c0-.45,0-.9-.09-1.34C32.62,182.35,33.92,177.72,32.58,173.25Z"/><path class="cls-3" d="M192.55,54c-1.88-6.87-1.67-12.7-2.09-19.63,2.17.63,2.37,1.26,2.37,2.45C192.86,42.56,192.67,48.29,192.55,54Z"/><path class="cls-3" d="M32.13,172c2,4.85.45,9.93.91,14.88.17,1.78.1,3.58.14,5.37-1.43,1-1.18-.35-1.18-.91C32,184.89,32.08,178.44,32.13,172Z"/></g></g></svg>
+          <nav class="nav-flutuante">
+            <ul>
+              <li><a>Produtos e serviços</a>
+                <svg class="icon-prod-serv" viewBox="0 0 320 512" width="100" title="angle-down">
+                  <path d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z" />
+                </svg>
+              </li>
+              <li><a href="#">Atendimento</a></li>
+              <li><a href="#">Soluções digitais</a></li>
+              <li><a href="#">Acesso á informação</a></li>
+              <li class="separador"></li>
+              <li>
+                <input hidden type="search" name="" id="">
+                <span>buscar 
+                  <svg class="icon-search" viewBox="0 0 512 512" width="100" title="search">
+                    <path d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z" />
+                  </svg>
+                </span>
+              </li>
+              <li class="criar-conta">
+                <a>
+                  criar sua conta
+                </a>
+              </li>
+              <li class="acesso-conta">
+                <a><svg class="icon-acesso" viewBox="0 0 448 512" width="100" title="lock">
+                    <path d="M400 224h-24v-72C376 68.2 307.8 0 224 0S72 68.2 72 152v72H48c-26.5 0-48 21.5-48 48v192c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V272c0-26.5-21.5-48-48-48zm-104 0H152v-72c0-39.7 32.3-72 72-72s72 32.3 72 72v72z" />
+                  </svg>
+                  Acesse sua conta
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+        </div>
+      </section>
+    </header>
+    <article>
+       <section>
+        <main>
+          <!-- Slider main container -->
+          <div class="swiper-container" style="overflow: hidden;">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img src="./slide1.jpg" alt="" srcset="">
+              </div>
+              <div class="swiper-slide">
+                <img src="./slide2.jpg" alt="" srcset="">
+              </div>
+              
+            </div>
+            
+            <!-- If we need navigation buttons -->
+            <span class="voltar icon-slider">
+              <svg class="svg-icon-slider" viewBox="0 0 256 512" width="100" title="angle-left">
+                <path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z" />
+              </svg>
+            </span>
+
+            <span class="proximo icon-slider">
+              <svg class="svg-icon-slider" viewBox="0 0 256 512" width="100" title="angle-right">
+                <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
+              </svg>
+            </span>
+          </div>
+          <!-- Slider main container -->
+          <div class="menu-opcoes-2">
+            <ul class="menu-opcoes-conteudo">
+              <li>
+                <a href=""><span>Abra sua Conta Fácil</span></a>
+              </li>
+             <li>
+               <a href=""><span>Liberação de dispositivos e senhas</span></a>
+             </li>
+             <li>
+               <a href=""><span>Cadastre-se no Pix</span></a>
+             </li>
+             <li>
+               <a href=""><span>Soluções digitais</span></a>
+             </li>
+            </ul>
+            <div class="menu-com-cartoes">
+              <div class="cartao">
+                <div class="cartao-inferior">
+                  <img src="./img1.jpg" alt="" width="100%">
+                  <div class="info">
+                    <h2 class="cartao-titulo">Contas</h2>
+                    <p>
+                      Das soluções simples às mais complexas, o BB tem a conta ideal para você.</p>
+                    <a href="">
+                      <svg viewBox="0 0 512 512" width="100" title="chevron-circle-right">
+                        <path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z" />
+                      </svg> 
+                      Confira
+                    </a>
+                  </div>   
+                </div>
+              </div>
+
+              <div class="cartao">
+                <div class="cartao-inferior">
+                  <img src="./img2.jpg" alt="" width="100%">
+                  <div class="info">
+                    <h2 class="cartao-titulo">Empréstimos</h2>
+                    <p>
+                      Para apoiar você a seguir os seus sonhos.
+                    </p>
+                    <a href="">
+                      <svg viewBox="0 0 512 512" width="100" title="chevron-circle-right">
+                        <path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z" />
+                      </svg> 
+                      Confira
+                    </a>
+                  </div>   
+                </div>
+              </div>
+
+              <div class="cartao">
+                <div class="cartao-inferior">
+                  <img src="./img3.jpg" alt="" width="100%">
+                  <div class="info">
+                    <h2 class="cartao-titulo">Financiamento</h2>
+                    <p>
+                      As melhores soluções para realizar seus sonhos estão aqui.
+                    </p>
+                    <a href="">
+                      <svg viewBox="0 0 512 512" width="100" title="chevron-circle-right">
+                        <path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z" />
+                      </svg> 
+                      Confira
+                    </a>
+                  </div>   
+                </div>
+              </div>
+
+              <div class="cartao">
+                <div class="cartao-inferior">
+                  <img src="./img4.jpg" alt="" width="100%">
+                  <div class="info">
+                    <h2 class="cartao-titulo">Cartões</h2>
+                    <p>
+                      Não precisa ter conta no BB para ter um Ourocard pra chamar de seu.
+                    </p>
+                    <a href="">
+                      <svg viewBox="0 0 512 512" width="100" title="chevron-circle-right">
+                        <path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z" />
+                      </svg> 
+                      Confira
+                    </a>
+                  </div>   
+                </div>
+              </div>
+
+              <div class="cartao">
+                <div class="cartao-inferior">
+                  <img src="./img5.png" alt="" width="100%">
+                  <div class="info">
+                    <h2 class="cartao-titulo">Investimentos</h2>
+                    <p>
+                      Soluções em investimentos que combinam com você e com seus objetivos.
+                    </p>
+                    <a href="">
+                      <svg viewBox="0 0 512 512" width="100" title="chevron-circle-right">
+                        <path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z" />
+                      </svg> 
+                      Confira
+                    </a>
+                  </div>   
+                </div>
+              </div>
+
+              <div class="cartao">
+                <div class="cartao-inferior">
+                  <img src="./img6.jpg" alt="" width="100%">
+                  <div class="info">
+                    <h2 class="cartao-titulo">Auxílios e benefícios emergenciais</h2>
+                    <p>
+                      Consulte os auxílios e benefícios emergenciais que estão sendo pagos pelo Banco do Brasil.
+                    </p>
+                    <a href="">
+                      <svg viewBox="0 0 512 512" width="100" title="chevron-circle-right">
+                        <path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z" />
+                      </svg> 
+                      Confira
+                    </a>
+                  </div>   
+                </div>
+              </div>
+
+              <div class="cartao">
+                <div class="cartao-inferior">
+                  <img src="./img7.jpg" alt="" width="100%">
+                  <div class="info">
+                    <h2 class="cartao-titulo">Para você empreendedor</h2>
+                    <p>
+                      Cartões, maquininhas, crédito e o que mais você precisar para o seu negócio.
+                    </p>
+                    <a href="">
+                      <svg viewBox="0 0 512 512" width="100" title="chevron-circle-right">
+                        <path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z" />
+                      </svg> 
+                      Confira
+                    </a>
+                  </div>   
+                </div>
+              </div>
+              <div class="cartao">
+                <div class="cartao-inferior">
+                  <img src="./img8.jpg" alt="" width="100%">
+                  <div class="info">
+                    <h2 class="cartao-titulo">Sustentabilidade</h2>
+                    <p>
+                      O banco mais sustentável do mundo pra tudo que você imaginar.
+                    </p>
+                    <a href="">
+                      <svg viewBox="0 0 512 512" width="100" title="chevron-circle-right">
+                        <path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z" />
+                      </svg> 
+                      Confira
+                    </a>
+                  </div>   
+                </div>
+              </div>
+              <div class="confira-servicos">
+                <a href="#"> <svg viewBox="0 0 512 512" width="100" title="chevron-circle-right">
+                  <path d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z" />
+                </svg> Confira todos os <strong>&nbsp; produtos e serviços</strong></a>
+              </div>
+            </div>
+          </div>
+        </main>
+      </section>
+    </article>
+  </div>
+  <script>
+    const swiper = new Swiper('.swiper-container', {
+  // Optional parameters
+  autoplay: {
+   delay: 5000,
+  },
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.proximo',
+    prevEl: '.voltar',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+  </script>
+</body>
+</html>
